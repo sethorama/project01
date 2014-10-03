@@ -1,0 +1,1 @@
+$('#logo').before('<img src="../img/sethr_01.jpg" id="profile-pic">');
