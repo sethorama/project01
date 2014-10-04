@@ -13,12 +13,14 @@ body {
 *****************/
 
 #wrapper {
-	width: 1200px;
+	max-width: 940px;
 	margin: auto;
 }
 
-hr {
-	color: #000;
+#logo-pic {
+	margin-top: 10px;
+	border-radius: 50%;
+	float: left;
 }
 
 #header {
@@ -28,18 +30,39 @@ hr {
 	text-align: center;
 	width: 100%;
 	height: 150px;
+	border-bottom: solid 8px #10653a;
 }
 
 #logo {
-	margin: auto;
-	padding: 10px;
-	background-color: #00FFFF;
-	border-radius: 10px;
+	margin-top: 15px;
+	margin-left: 15px;
 	float: left;
-	margin-top: 10px;
-	margin-left: 10px;
 }
 
+#logo h1, h3{
+	padding: 10px;
+	background-color: #c0d4e2;
+	border-radius: 10px;
+}
+
+#logo h1, h3, 
+.button {
+	margin: 4px;
+	border: 2px solid #10653a;
+}
+
+#logo h1 {
+	color: #154b72;
+}
+
+#logo h3 {
+	color: #2b5d82;
+}
+
+
+a {
+	font-weight: 800;
+}
 
 #main-nav {
 	margin: 50px auto;
@@ -54,16 +77,35 @@ hr {
 
 a {
 	text-decoration: none;
-	display: block;
+	display: inline-block;
 }
 
 #main-nav li {
+		display: inline-block;
+}
+
+
+
+.button {
 	float: left;
 	margin-right: 10px;
+	background-color: #c0d4e2;
 	padding: 10px;
-	background-color: #00FFFF;
 	border-radius: 10px;
-	display: inline;
+}
+
+
+.button:hover {
+	background-color: #dae3ea;
+}
+
+
+#main-nav a, a:visited {
+	color: #154b72;
+}
+
+#main-nav a.selected, #main-nav:hover {
+	color: #77284b;
 }
 
 
