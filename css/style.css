@@ -110,8 +110,20 @@ a {
 
 
 /*****************
-   Profile Pic
+   Gallery Page
 *****************/
+
+#gallery {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}
+
+.gallery-img {
+	padding: 20px;
+	background: #dae3e;
+	border-radius: 10px;
+}
 
 
 
