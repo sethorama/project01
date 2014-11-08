@@ -113,16 +113,36 @@ a {
    Gallery Page
 *****************/
 
-#gallery {
-	-webkit-column-count: 3;
-	-moz-column-count: 3;
-	column-count: 3;
+a {
+	text-decoration: none;
 }
 
-.gallery-img {
-	padding: 20px;
-	background: #dae3e;
+
+#gallery {
+	padding: 0 5%;
+	margin: 0 auto;
+	max-width: 940px;	
+}
+
+#gallery ul {
+	list-style-type: none;	
+}
+
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #dae3ea;
 	border-radius: 10px;
+}
+
+#gallery img {
+	border-radius: 10px;
+}
+
+img {
+	max-width: 100%;
 }
 
 
