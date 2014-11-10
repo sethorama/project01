@@ -13,11 +13,12 @@ a {
 	text-align: center;
 	font-weight: 800;
 	display: inline-block;
+	color: #000;
 }
 
-a p {
-	margin-top: 2em;
-}
+
+
+
 
 /*****************
    Header
@@ -107,7 +108,7 @@ a p {
 	color: #154b72;
 }
 
-#main-nav a.selected, #main-nav:hover {
+#main-nav a.selected, #main-nav a:hover {
 	color: #77284b;
 }
 
@@ -149,6 +150,7 @@ a p {
 }
 
 
+
 /************************
 
 	Lightbox
@@ -164,6 +166,15 @@ a p {
 	left: 0;
 	display: none;
 	text-align: center;
+	color: #fff;
+	font-weight: 800;
+}
+
+
+#overlay img {
+	max-height: 50%;
+	border: 10px solid #fff;
+	border-radius: 2px;
 }
 
 .close {
@@ -175,12 +186,10 @@ a p {
 }
 
 .close a:hover {
-	color: white;
+	color: #fff;
 }
 
-#overlay p {
-	color: white;
-}
+
 
 /************************
 

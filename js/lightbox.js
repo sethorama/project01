@@ -21,7 +21,8 @@ $("#gallery a").click(function(event){
 
 
 
-$overlay.click(function(){
+$(".close a").click(function(event){
+	event.preventDefault();
 	$overlay.fadeOut(500);
 });
 
