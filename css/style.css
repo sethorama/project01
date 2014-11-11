@@ -190,6 +190,20 @@ a {
 }
 
 
+/************************
+
+	Contact Page
+
+***********************/
+
+#contact-photo {
+	padding: 10px;
+}
+
+#contact-photo img {
+	border-radius: 50%;
+}
+
 
 /************************
 
